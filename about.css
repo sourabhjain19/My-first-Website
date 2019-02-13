@@ -1,0 +1,104 @@
+.visible
+{
+  border-radius: 25px;
+  display: block;
+  position: relative;
+}
+q
+{
+  display: none;
+  position: relative;
+}
+.visible1
+{
+  display: block;
+  position: relative;
+}
+footer
+{
+  background-color: rgba(300,0,0,0.3);
+  overflow: auto;
+}
+section > a
+{
+  padding: 10;
+  padding-top: 30;
+  float: left;
+}
+section > q
+{
+  padding-left: 300;
+  float: left;
+}
+footer > section > a > img
+{
+  float: left;
+  border-radius: 50%;
+}
+table,th,td
+{
+  border-width: thick;
+  border-style:groove;
+  border-color: blue;
+  border-collapse: collapse;
+  border-spacing: 20;
+  text-align: center;
+  font-size: 25;
+}
+table
+{
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10;
+}
+img
+{
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+html
+{
+  background-image: url("Theme.png");
+  border: 12px red;
+  border-style: ridge;
+  margin: 0;
+}
+header
+{
+  background-color: rgba(255, 0, 0, 0.5);
+  margin: 10px;
+}
+.he
+{
+  font-size: 35px;
+  text-align: center;
+  padding : 15px;
+  font-style: italic;
+  font-family: "Andalus";
+  font-weight: bold;
+}
+.h
+{
+  float: left;
+  padding-left: 10px;
+  padding-top: 35px;
+}
+header > a:link
+{
+  color: yellow;
+}
+header > a:hover
+{
+  text-decoration: underline;
+}
+header > a:active
+{
+  color: black;
+}
+header > a:visited
+{
+  color: blue;
+}
